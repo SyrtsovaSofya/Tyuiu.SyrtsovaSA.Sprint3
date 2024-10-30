@@ -11,7 +11,7 @@ public class DataService : ISprint3Task7V6
         int count = 0;
         for (int i = startValue; i <= stopValue; i++)
         {
-            y = Math.Round(3 * Math.Cos(i) / (4 * i - 0.5) + Math.Sin(i) - 5 * i - 2, 2);
+                y = Math.Round(3 * Math.Cos(i) / (4 * i - 0.5) + Math.Sin(i) - 5 * i - 2, 2);
             valueArray[count++] = y;
         }
         return valueArray;
